@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "141911003171",
+    "firebase_url": "https://souscolartest-204f5.firebaseio.com",
+    "project_id": "souscolartest-204f5",
+    "storage_bucket": "souscolartest-204f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141911003171:android:26a2a1bd18c2ca7d39e196",
+        "android_client_info": {
+          "package_name": "com.souscolar.souscolarApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141911003171-bkktu6v6gstd66d5r6r294tk19vfcmel.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.souscolar.souscolarApp",
+            "certificate_hash": "3a15576d796163c8d7de3839ac353d5249063458"
+          }
+        },
+        {
+          "client_id": "141911003171-vcbg2bmujl11sl7igiro9j6rq5vdpgeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfQAGS4MkNPq9cd2cldB3N6o89F6FtDxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141911003171-vcbg2bmujl11sl7igiro9j6rq5vdpgeu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "141911003171-5qds6sqbqla3fc778egugv9s8m7qcat6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.souscolar.souscolarApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

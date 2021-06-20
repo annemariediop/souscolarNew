@@ -1,0 +1,53 @@
+.bg{
+    background:url("/assets/bg1.jpg");
+    border-radius: 0px 0px  140px  0px!important;
+    overflow: hidden;
+    align-content: center;
+}
+.logo{
+    width: 30%;
+    height:auto;
+    margin: auto;
+    display: block;
+}
+.texte{
+    font-family: 'Merienda One';
+    color: #ffffff;
+    font-size: 52px;
+    display: flex;
+    justify-content: center;
+
+}
+.bienvenue{
+    font-family: 'Merienda One';
+    color: #0A347E;
+    font-size: 36px;
+    margin-bottom: 20%;
+    
+}
+.titre{
+    font-family: 'Merienda One';
+    color: #0A347E;
+    font-size: 25px;
+}
+ion-input{
+    //font-family: 'Merienda One';
+    color: #0A347E;
+    font-size: 120%;
+}
+.connexion{
+    --background:#0A347E;
+    margin-top: 10%;
+}
+.inscription{
+    margin-top:15%;
+    font-family: 'Merienda One';
+    color: #1765eb;
+    font-size:20px;
+}
+.oublier{
+    margin-top:15%;
+    font-family: 'Merienda One';
+    color: #323335;
+    font-size:20px;
+}

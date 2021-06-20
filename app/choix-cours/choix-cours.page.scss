@@ -1,0 +1,74 @@
+ion-header {
+    --border-radius: 0px 0px  140px  0px!important;
+}
+ion-avatar{
+    margin-top: 5%;
+    width:15%;
+    height:auto;
+    box-shadow: 2px 2px 0px #35409C;
+}
+.salut{
+    margin-top:2%;
+    font-family: 'Merienda One';
+    font-size:150%; 
+}
+.cours{
+    font-family: 'Merienda One';
+    font-size:170%; 
+}
+.menu{
+    transform: rotate(90deg);
+    border-radius:50%;
+    
+}
+.card{
+    background:#35409C;
+    color:#ffffff;
+    // box-shadow: 8px 8px 0px #7480ec;
+    
+    
+}
+.img-cours{
+    width:100%;
+    height:auto;
+    
+}
+.matiere{
+    font-size:180%; 
+    margin-top:10%;
+    font-family: 'Merienda One';
+}
+.card-lesson
+{
+    align-content: center;
+    
+    background:#0C0F72;
+    color:#ffffff;
+    border-radius: 20%;
+    
+}
+.nbre{
+    // margin-top:30%;
+    align-content: center;
+    font-size:250%;
+    display: flex;
+    justify-content: center;
+}
+.profs{
+    // margin-bottom:10%;
+    align-content: center;
+   //padding: auto;
+    font-size:150%;
+    display: flex;
+    justify-content: center;
+}
+.card-img{
+    border-radius: 15%;
+   
+}
+.img-card
+{
+    width:100%;
+    height:100%;
+    border-radius: 15%;
+}

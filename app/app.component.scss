@@ -1,0 +1,42 @@
+ion-app
+{
+   font-family:lato;
+}
+.menu-header-bg
+{
+   height: 180px;
+   width: 310px;
+   background: #7590d6;
+   background: linear-gradient(80deg,#97b5ff 0%,#2c5ee7 100%);
+   box-shadow: Opx 1px 10px rgba(90,140,255,0.5);
+   transform: rotate(-15deg);
+   border-radius: 10px 10px 10px 50px;
+   margin-left: -2px;
+   margin-top: -50px;
+   margin-bottom: 60px;
+}
+.header-content{
+   position: absolute;
+   top: 30px;
+   left: 15px;
+   display: flex;
+   align-items: center;
+}
+ion-avatar{
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   border: 7px solid #5e7ccc;
+   margin-right: 14px;
+}
+h2{
+   font-weight: 300;
+   color: #ffffff;
+}
+p
+{
+   font-size: 12  px;
+   color: #ffffff;
+   font-weight: 100;
+   letter-spacing: 0.4px;
+}

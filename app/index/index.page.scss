@@ -1,0 +1,42 @@
+.bg{
+  background:url("/assets/bg1.jpg");
+  border-radius: 0px 0px  140px  0px!important;
+  overflow: hidden;
+  align-content: center;
+}
+.logo{
+  width: 45%;
+  height:auto;
+  margin: auto;
+  display: block;
+}
+.texte{
+  font-family: 'Merienda One';
+  color: #ffffff;
+  font-size: 52px;
+  display: flex;
+  justify-content: center;
+
+}
+.titre{
+  padding: 10% 0% 10% 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0D418A;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.description{
+
+  
+  color: #0A347E;
+  font-size:15px;
+}
+ion-button{
+  padding: 10% 0% 0% 0%;
+  --background: #0A347E;
+  width:130%;
+  height:150%;
+
+  
+}

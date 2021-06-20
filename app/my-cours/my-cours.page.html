@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+      </ion-buttons>
+    <ion-title color="primary">Mes Cours</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class='cont'>
+  <ion-col size-md="6" size-xs="12" *ngFor="let crs of cours">
+    <ion-card>
+      <ion-item>
+        
+        <ion-card-content >
+          <ion-card-title>
+           <h1>{{crs.matiere}}</h1> 
+           <h2>{{crs.prenomProf}}&nbsp;{{crs.nomProf}}</h2>
+         
+          
+          <div class="rating-container">
+            <rating [(ngModel)]="rate"  readonly="false" size="default" (ngModelChange)="onModelChange($event)" ></rating>
+            <ion-button (click)="leaveNote(crs)" size="small" >noter</ion-button>
+          </div>
+        </ion-card-title>
+        </ion-card-content>
+        
+
+
+
+      </ion-item>
+    </ion-card>
+
+
+  </ion-col>
+</ion-content>

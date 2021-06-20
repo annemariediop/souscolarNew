@@ -1,0 +1,79 @@
+// ion-toolbar{
+//     --background:rgb(65, 47, 47);
+
+// }
+.modules{
+    text-align: center;
+    align-content: center;
+    --align: center;
+}
+ion-input {
+    color: rgb(65, 47, 47);
+}
+
+ion-label {
+    color: rgb(65, 47, 47);
+}
+
+ion-button {
+    padding-bottom: 3%; 
+}
+.padding{
+    padding-bottom: 3%;
+}
+
+ion-content {
+    --align: center;
+    // --background: url("~/assets/img/fond-connexion.png") ;
+
+    --ion-background-color: linear-gradient(rgb(119, 145, 219), rgb(222, 229, 231), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255));
+
+
+}
+h1 {
+    font-size: 210%;
+
+    color: rgb(7, 38, 92);
+  }
+ion-item {
+    --ion-background-color: transparent !important;
+}
+
+ion-img {
+
+    height: auto;
+    width: 30%;
+    margin: auto;
+    padding-bottom: 3%;
+    // border: 2px solid #fff;
+    
+    display: block;
+
+}
+
+.bienvenue {
+
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(7, 38, 92)
+
+    h1 {
+        font-size: 100%;
+
+    }
+
+    
+}
+
+ion-card {
+    align-content: center;
+    --ion-background-color: transparent !important;
+}
+
+ion-grid {
+    --ion-background-color: transparent !important;
+}
+ion-list {
+    align-content: center;
+    --align: center;
+}
